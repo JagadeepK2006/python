@@ -1,0 +1,3 @@
+s = "Hello World"
+vowels = "aeiouAEIOU"
+print("".join("*" if c in vowels else c for c in s))
